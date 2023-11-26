@@ -26,18 +26,18 @@
             <h1>Form</h1>
             <form action="">
                 <div class="names">
-                    <input type="text" placeholder="Fullname">
+                    <input type="text" name="fullname" placeholder="Fullname">
                     <br>
-                    <input type="text" placeholder="Username">
+                    <input type="text" name="username" placeholder="Username">
                     <br>
-                    <input type="password" placeholder="Password">
+                    <input type="password" name="password" placeholder="Password">
                     <br>
                 </div>
                 <div class="radios">
-                    <p>Male</p>
-                    <input type="radio">
-                    <p>Female</p>
-                    <input type="radio">
+                    <label for="male">Male</label>
+                    <input type="radio" value="male" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" value="female" id="female">
                 </div>
                 <div class="submit">
                     <button>Submit</button>

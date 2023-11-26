@@ -60,8 +60,7 @@
 .form .radios{
     text-align: center;
 }
-.form .radios p{
-    display: inline;
+.form .radios label{
     font-size: 20px;
     padding: 0 10px;
 }
